@@ -6,4 +6,9 @@ public class Library
     {
         Console.WriteLine(input);
     }
+
+    public void Write(string input)
+    {
+        Console.Write(input);
+    }
 }
