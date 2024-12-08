@@ -1,5 +1,8 @@
 ﻿namespace Sublibrary;
 
+/// <summary>
+/// Документация
+/// </summary>
 public class Library
 {
     private readonly ConsoleColor color;
