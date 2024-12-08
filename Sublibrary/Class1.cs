@@ -1,5 +1,9 @@
 ﻿namespace Sublibrary;
 
-public class Class1
+public class Library
 {
+    public void WritLine(string input)
+    {
+        Console.WriteLine(input);
+    }
 }
