@@ -40,8 +40,12 @@ public class Library
         Console.ForegroundColor = oldColor;
     }
 
-    public string ReadLine()
+    public string? ReadLine()
     {
-        return Console.ReadLine();
+        var answer = Console.ReadLine();
+        answer = answer?.Trim();
+        return string.IsNullOrEmpty(answer)
+            ? null 
+            : answer;
     }
 }
