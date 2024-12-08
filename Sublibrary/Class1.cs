@@ -39,4 +39,9 @@ public class Library
         write();
         Console.ForegroundColor = oldColor;
     }
+
+    public string ReadLine()
+    {
+        return Console.ReadLine();
+    }
 }
